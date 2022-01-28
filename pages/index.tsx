@@ -1,14 +1,14 @@
 // import { GetServerSidePropsContext, GetStaticPropsContext } from 'next'
 import { motion } from 'framer-motion'
-import { GetServerSideProps, GetServerSidePropsContext, GetStaticProps, GetStaticPropsContext, NextPage } from 'next'
+// import { GetServerSideProps, GetServerSidePropsContext, GetStaticProps, GetStaticPropsContext } from 'next'
 import { fadeInUp, routeAnimation, stagger } from '../animations'
 import ServiceCard from '../components/ServiceCard'
 import { services } from '../data'
-import { Service } from '../type'
+// import { Service } from '../type'
 
 // ABOUT PAGE //
 
-const about = ({endpoint}) => {
+const about = () => {
   return (
     <motion.div className='flex flex-col flex-grow px-6 pt-1'
       variants={routeAnimation}
@@ -44,29 +44,29 @@ const about = ({endpoint}) => {
 export default about
 
 
-export const getServerSideProps: GetServerSideProps = async (
-  context: GetServerSidePropsContext
-) => {
+// export const getServerSideProps: GetServerSideProps = async (
+//   context: GetServerSidePropsContext
+// ) => {
 
-  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
-  const data = await res.json()
+//   const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+//   const data = await res.json()
 
-  return {
-    props: { endpoint: process.env.VERCEL_URL }
-  }
-}
+//   return {
+//     props: { endpoint: process.env.VERCEL_URL }
+//   }
+// }
 
 
-export const getStaticProps: GetStaticProps = async (
-  context: GetStaticPropsContext
-) => {
+// export const getStaticProps: GetStaticProps = async (
+//   context: GetStaticPropsContext
+// ) => {
 
-  const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
-  const data = await res.json()
+//   const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+//   const data = await res.json()
 
-  return {
-    props: {
-      services: data.services,
-    }
-  }
-}
+//   return {
+//     props: {
+//       services: data.services,
+//     }
+//   }
+// }
