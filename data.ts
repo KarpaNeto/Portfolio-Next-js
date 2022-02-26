@@ -13,14 +13,14 @@ export const services: Service[] = [
     {
         Icon: MdComputer,
         title: "Front-end Development",
-        about: "I build beatiful Static Website, SPA & Design System using <b>HTML</b>, <b>CSS</b> and <b>React.js/Next.js</b>",
+        about: "I build beautiful Static Website, SPA & Design System using <b>HTML</b>, <b>CSS</b>, <b>React.js/Next.js</b> and <b>Svelte/SvelteKit</b>",
 
     },
 
     {
         Icon: FaServer,
         title: "Backend Development",
-        about: "handle database, server , api using <b>Express</b> & other popular frameworks",
+        about: "handle database, server , api using <b>Express</b> & Firebase, Supabase",
     },
 
     {
@@ -36,18 +36,6 @@ export const services: Service[] = [
         about: "lorem...",
     },
 
-    {
-        Icon: RiComputerLine,
-        title: "Front-end Dev",
-        about: "lorem...",
-
-    },
-
-    {
-        Icon: RiComputerLine,
-        title: "Backend Dev",
-        about: "lorem...",
-    }
 ]
 
 export const languages: Skill[] = [
