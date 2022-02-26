@@ -1,5 +1,4 @@
 import { Service, Skill, Project } from './type'
-import { RiComputerLine } from 'react-icons/ri'
 import { MdComputer } from 'react-icons/md'
 import { FaServer, FaFigma } from 'react-icons/fa'
 import { AiOutlineApi } from 'react-icons/ai'
@@ -43,43 +42,42 @@ export const languages: Skill[] = [
     {
         Icon: BsCircleFill,
         name: 'HTML',
-        level: '80%',
+        level: '100%',
     },
 
     {
         Icon: BsCircleFill,
-        name: 'CSS/Sass',
-        level: '80%',
+        name: 'CSS/SASS',
+        level: '100%',
+    },
+
+    {
+        Icon: BsCircleFill,
+        name: 'Tailwind',
+        level: '100%',
     },
     {
         Icon: BsCircleFill,
         name: 'Bootstrap',
-        level: '70%',
+        level: '100%',
     },
 
     {
         Icon: BsCircleFill,
-        name: 'JavaScript',
-        level: '60%',
+        name: 'Svelte',
+        level: '100%',
     },
     {
         Icon: BsCircleFill,
         name: 'React.js',
-        level: '45%',
+        level: '100%',
     },
 
     {
         Icon: BsCircleFill,
         name: 'Next.js',
-        level: '45%',
+        level: '100%',
     },
-
-    {
-        Icon: BsCircleFill,
-        name: 'Django',
-        level: '30%',
-    },
-
 
 ]
 
@@ -88,19 +86,13 @@ export const tools: Skill[] = [
     {
         Icon: BsCircleFill,
         name: 'Figma',
-        level: '90%',
-    },
-
-    {
-        Icon: BsCircleFill,
-        name: 'Illustrator',
-        level: '50%',
+        level: '100%',
     },
 
     {
         Icon: BsCircleFill,
         name: 'Trello',
-        level: '70%',
+        level: '100%',
     },
 ]
 
@@ -117,52 +109,62 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        name: "Space Tourism",
-        description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/space-tourism.png",
-        deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
-        github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["node"],
-        tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
+        name: "Budget Calculator",
+        description: "Expenses Calculator in Svelte",
+        image_path: "/images/invoicer-netlify.png",
+        deployed_url: "https://invoicer.netlify.app/",
+        github_url: "https://github.com/KarpaNeto/budget-calculator",
+        category: ["svelte"],
+        tag_techs: ["Svelte", "CSS"],
     },
     {
         id: 3,
-        name: "Space Tourism",
-        description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/space-tourism.png",
-        deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
-        github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["express"],
-        tag_techs: ["HTML", "CSS", "Vanilla JavaScript", "Figma"],
+        name: "Proconta Expert",
+        description: "This is a website for a client in Romenia, he hired me to make a new version of his business website",
+        image_path: "/images/procontaexpertsrl.png",
+        deployed_url: "https://procontaexpertsrl.netlify.app/",
+        github_url: "https://github.com/KarpaNeto/procontaexpertsrl",
+        category: ["svelte"],
+        tag_techs: ["SvelteKit", "Tailwind"],
     },
     {
         id: 4,
-        name: "Space Tourism",
-        description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/space-tourism.png",
-        deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
-        github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["html/css", "mongodb"],
+        name: "FKSIS - Sistemas de Gestão",
+        description: "Website made for management systems sales company ",
+        image_path: "/images/fksis.png",
+        deployed_url: "https://fksis.com.br",
+        github_url: "https://github.com/KarpaNeto/Site-FKSIS",
+        category: ["html/css"],
         tag_techs: ["HTML", "CSS"],
     },
     {
         id: 5,
-        name: "Space Tourism",
-        description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/space-tourism.png",
-        deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
-        github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["react"],
+        name: "Residencial Pouso das Águas",
+        description: "website made for a client in the region. A modern website to expose the beauties of your hotel",
+        image_path: "/images/pousodasaguas.png",
+        deployed_url: "https://residencial-pouso-das-aguas.netlify.app/",
+        github_url: "https://github.com/KarpaNeto/residencial-pouso-das-aguas",
+        category: ["html/css", ""],
         tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
     },
     {
         id: 6,
-        name: "Space Tourism",
+        name: "Wermond's Cleaning",
         description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/space-tourism.png",
-        deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
-        github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["javascript", "mongodb"],
-        tag_techs: ["React.js", "Tailwindcss", "Figma"],
+        image_path: "/images/wermonds_.png",
+        deployed_url: "https://wermonds.netlify.app/",
+        github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
+        category: ["html/css", "javascript"],
+        tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
     },
+    // {
+    //     id: 7,
+    //     name: "Wermond's Cleaning",
+    //     description: "This is a website challenge from Front-end Mentor",
+    //     image_path: "/images/wermonds_.png",
+    //     deployed_url: "https://wermonds.netlify.app/",
+    //     github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
+    //     category: ["html/css", "javascript"],
+    //     tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
+    // },
 ]
