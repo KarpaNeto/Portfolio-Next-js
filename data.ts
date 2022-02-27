@@ -1,6 +1,5 @@
 import { Service, Skill, Project } from './type'
-import { MdComputer } from 'react-icons/md'
-import { FaServer, FaFigma } from 'react-icons/fa'
+import { FaServer, FaFigma, FaLaptopCode } from 'react-icons/fa'
 import { AiOutlineApi } from 'react-icons/ai'
 import { BsCircleFill } from 'react-icons/bs'
 
@@ -10,31 +9,16 @@ import { BsCircleFill } from 'react-icons/bs'
 export const services: Service[] = [
 
     {
-        Icon: MdComputer,
+        Icon: FaLaptopCode,
         title: "Front-end Development",
-        about: "I build beautiful Static Website, SPA & Design System using <b>HTML</b>, <b>CSS</b>, <b>React.js/Next.js</b> and <b>Svelte/SvelteKit</b>",
-
+        about: "I build beautiful Static Website, SPA & Design System using <b>React.js/Next.js</b> and <b>Svelte/SvelteKit</b>",
     },
 
     {
         Icon: FaServer,
         title: "Backend Development",
-        about: "handle database, server , api using <b>Express</b> & Firebase, Supabase",
+        about: "Handle database, server , API using <b>Express</b> & <b>Firebase</b>, <b>Supabase</b>",
     },
-
-    {
-        Icon: AiOutlineApi,
-        title: "API Development",
-        about: "lorem...",
-
-    },
-
-    {
-        Icon: FaFigma,
-        title: "UI Design",
-        about: "lorem...",
-    },
-
 ]
 
 export const languages: Skill[] = [
@@ -157,14 +141,14 @@ export const projects: Project[] = [
         category: ["HTML/CSS", "javaScript"],
         tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
     },
-    // {
-    //     id: 7,
-    //     name: "Wermond's Cleaning",
-    //     description: "This is a website challenge from Front-end Mentor",
-    //     image_path: "/images/wermonds_.png",
-    //     deployed_url: "https://wermonds.netlify.app/",
-    //     github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
-    //     category: ["html/css", "javascript"],
-    //     tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
-    // },
+    {
+        id: 7,
+        name: "My Portfolio",
+        description: "This is a website challenge from Front-end Mentor",
+        image_path: "/images/wermonds_.png",
+        deployed_url: "https://wermonds.netlify.app/",
+        github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
+        category: ["next.js",],
+        tag_techs: ["Next.js", "Tailwind"],
+    },
 ]
