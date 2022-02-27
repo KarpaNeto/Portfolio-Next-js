@@ -10,7 +10,7 @@ body {
 
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+    background-image: linear-gradient(to right bottom, #9100f2, #0575e6);
 }
 
 ::-webkit-scrollbar {
