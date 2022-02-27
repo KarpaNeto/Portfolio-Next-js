@@ -23,4 +23,4 @@ export interface Project {
     tag_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongodb" | "javascript" | "html/css";
+export type Category = "HTML/CSS" | "react.js" | "svelte" | "next.js" | "react native" | "javaScript" | "firebase" | "supabase";

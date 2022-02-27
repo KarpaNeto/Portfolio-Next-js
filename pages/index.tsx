@@ -14,10 +14,7 @@ const about = () => {
       variants={routeAnimation}
       initial="initial"
       animate="animate">
-      <h5 className='my-3 font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Laborum repellat est, sapiente omnis id illo sint corrupti iusto,
-        dolore dolores tempora incidunt velit minus eius rem, esse laudantium.
-        Beatae, corporis.
+      <h5 className='my-3 font-medium'>
       </h5>
       <div className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-500' style={{ marginInline: '-1.5rem' }}>
         <h6 className='my-3 font-bold tracking-wide text-1'>What i'm doing</h6>

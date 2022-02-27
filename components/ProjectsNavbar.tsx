@@ -25,12 +25,11 @@ const ProjectsNavbar: FunctionComponent<{handlerFilterCategory:Function, active:
     return (
         <div className="flex px-3 py-3 space-x-3 overflow-x-auto list-none">
             <NavItem value="all" {...props} />
-            <NavItem value="react" {...props} />
-            <NavItem value="node" {...props} />
-            <NavItem value="express" {...props} />
-            <NavItem value="mongodb" {...props} />
-            <NavItem value="javascript" {...props} />
-            <NavItem value="html/css" {...props} />
+            <NavItem value="HTML/CSS" {...props} />
+            <NavItem value="react.js" {...props} />
+            <NavItem value="next.js" {...props} />
+            <NavItem value="react native" {...props} />
+            <NavItem value="javaScript" {...props} />
         </div>
     );
 }

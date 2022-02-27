@@ -104,7 +104,7 @@ export const projects: Project[] = [
         image_path: "/images/space-tourism.png",
         deployed_url: "https://karpaneto.github.io/space-tourism-website-main/index.html#",
         github_url: "https://github.com/KarpaNeto/space-tourism-website-main",
-        category: ["html/css"],
+        category: ["HTML/CSS", "javaScript"],
         tag_techs: ["HTML", "CSS", "Vanilla JavaScript", "Figma"],
     },
     {
@@ -134,7 +134,7 @@ export const projects: Project[] = [
         image_path: "/images/fksis.png",
         deployed_url: "https://fksis.com.br",
         github_url: "https://github.com/KarpaNeto/Site-FKSIS",
-        category: ["html/css"],
+        category: ["HTML/CSS", "javaScript"],
         tag_techs: ["HTML", "CSS"],
     },
     {
@@ -144,7 +144,7 @@ export const projects: Project[] = [
         image_path: "/images/pousodasaguas.png",
         deployed_url: "https://residencial-pouso-das-aguas.netlify.app/",
         github_url: "https://github.com/KarpaNeto/residencial-pouso-das-aguas",
-        category: ["html/css", ""],
+        category: ["HTML/CSS", "javaScript"],
         tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
     },
     {
@@ -154,7 +154,7 @@ export const projects: Project[] = [
         image_path: "/images/wermonds_.png",
         deployed_url: "https://wermonds.netlify.app/",
         github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
-        category: ["html/css", "javascript"],
+        category: ["HTML/CSS", "javaScript"],
         tag_techs: ["HTML", "CSS", "Vanilla JavaScript"],
     },
     // {
