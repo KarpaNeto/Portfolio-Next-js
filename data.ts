@@ -144,11 +144,11 @@ export const projects: Project[] = [
     {
         id: 7,
         name: "My Portfolio",
-        description: "This is a website challenge from Front-end Mentor",
-        image_path: "/images/wermonds_.png",
-        deployed_url: "https://wermonds.netlify.app/",
-        github_url: "https://github.com/KarpaNeto/Wermonds-Cleaning",
+        description: "This is my portfolio using Next.js and Tailwind",
+        image_path: "/images/portfolio.png",
+        deployed_url: "https://karpa-neto.vercel.app",
+        github_url: "https://github.com/KarpaNeto/Portfolio-Next-js",
         category: ["next.js",],
-        tag_techs: ["Next.js", "Tailwind"],
+        tag_techs: ["Next.js", "Tailwind", "Typescript"],
     },
 ]
